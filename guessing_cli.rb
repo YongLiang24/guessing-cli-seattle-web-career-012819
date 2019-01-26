@@ -12,7 +12,7 @@ def run_guessing_game
     comp_num = rand(1..6)
     input = gets.chomp
   end
-  # Exit if input == exit
+
   if input == "exit"
     puts "Goodbye!"
   end
