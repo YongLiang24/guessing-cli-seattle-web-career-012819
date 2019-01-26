@@ -4,8 +4,6 @@ def run_guessing_game
   input = gets.chomp
   comp_num = rand(1..6)
   while input != "exit" do
-    # Compare input to random num
-    # Print result: correct?
     if input.to_i == comp_num
       puts "You guessed the correct number!"
     else
